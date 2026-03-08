@@ -5,6 +5,7 @@ class Solution(object):
 
          def backtrack(current_str, open_count, close_count):
             
+            
              if len(current_str) == 2 * n:
                  res.append(current_str)
                  return
